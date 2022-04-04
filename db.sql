@@ -13,5 +13,5 @@ CREATE TABLE "user" (
   CONSTRAINT uq_user UNIQUE (user_id)
 );
 
-INSERT INTO "user" (id, user_id, password_hash) VALUES (1, 'test', '$2b$10$2LWbmqCmB2aBftpD1TOu8eWKMcl5PI313acsrGdNT7ntNr1xUAiBW');
+INSERT INTO "user" (id, user_id, password_hash) VALUES (1, 'test', '$2b$10$w46NkW2MbvpG86Dn6822Gu/pEvwoLu9s44aiGFlFfTbyupKm9.Bz6');
 SELECT pg_catalog.setval('user_id_seq', 1, TRUE);
