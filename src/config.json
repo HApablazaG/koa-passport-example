@@ -1,0 +1,11 @@
+{
+  "dbUri": "postgresql://[DB_USERNAME]:[DB_PASSWORD]@[HOST]:[PORT]/[DB_NAME]",
+  "secret": [
+    ">-2KO}9&w!Zz3B,Xbx>Kc;}dC`HBngfJn(M$80/qI)cBkP1]PB4&,l#;Wb#=FrZ",
+    "vx.!dJ2!U4^2<Sj(k:.Ni_bnNW;r#/CKk{1,1N|)W>H%usGIM9m1'M9('8B@pV]",
+    "sR:^p'P$oaF;MyTg`B[5;!7u`_&N+8/@aIB*jm+QvntWj%$`81tgoO&UdwYf/W4",
+    "Ya{7Z:x]&jPB>Sh5.4r'>)5xzJ.rpR~<95xpM7Q{]xJ:'QoG9Dl^!0:u'oWqHcW",
+    "IOF0trUa|)NpPsVS:~}h;y->t@k6|cj5fT3`|2sx=Pt[u0l=c~T7;TvFg<za-l@"
+  ],
+  "sessionMaxAge": 7200000
+}
