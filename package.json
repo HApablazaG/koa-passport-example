@@ -1,0 +1,42 @@
+{
+  "name": "koa-passport-example",
+  "version": "1.0.0",
+  "description": "Example for local authentication with a postgres database.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon --exec npx babel-node --presets @babel/preset-env -- src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HApablazaG/koa-passport-example.git"
+  },
+  "author": "Hugo Apablaza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HApablazaG/koa-passport-example/issues"
+  },
+  "homepage": "https://github.com/HApablazaG/koa-passport-example#readme",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "bcrypt": "^5.0.1",
+    "bluebird": "^3.7.2",
+    "core-js": "^3.21.1",
+    "cron": "^1.8.2",
+    "has-values": "^2.0.1",
+    "http-status-codes": "^2.2.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-passport": "^4.1.4",
+    "koa-session": "^6.2.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "pg-promise": "^10.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
